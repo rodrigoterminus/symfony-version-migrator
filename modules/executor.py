@@ -2,10 +2,13 @@
 
 import versions
 import directory
+import files
+
 
 def migrate(project_path, current_version, target_version):
     versions.validate(current_version, target_version)
     directory.create(project_path, target_version)
+    files.create(project_path, target_version)
 
 
 def main():

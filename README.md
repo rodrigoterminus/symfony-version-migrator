@@ -2,13 +2,13 @@
 
 A tool to upgrade Symfony projects to latest versions
 
-## 🚨 CAUTION: This is a working in progress project and it is not ready for use yet 🚨
+## 🚨 This is a working in progress project and it is not ready for use yet 🚨
 
 Upgrade a Symfony application to the latest versions of the framework is not always the easiest task of our days. This tool aims to ease this task significantly by:
 
-- [ ] Adjusting directory structure
+- [x] Adjusting directory structure
+- [x] Creating new files
 - [ ] Relocating existent files
-- [ ] Creating new files
 - [ ] Cleaning up project
 - [ ] Spliting `app/config/config.yaml`
 - [ ] Adjusting classes namespaces
